@@ -33,7 +33,7 @@
     </section>
 
     <section class="about">
-        <h2 style ="color:blue;" >Our Mission</h2>
+        <h2 style ="color:blue" >Our Mission</h2>
         <p>Our platform saves time and improves access to equipment by linking buyers and sellers in one place, supporting local businesses and economic growth.</p>
     </section>
 
