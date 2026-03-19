@@ -10,7 +10,7 @@
 
     <header>
         <nav>
-            <div class="logo">Build<span>Connect</span></div>
+            <div class="logo">Construction<span>Hub</span></div>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#materials">Materials</a></li>
