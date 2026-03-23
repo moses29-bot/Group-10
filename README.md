@@ -13,7 +13,7 @@
             <div class="logo">Construction<span>Hub</span></div>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#materials">Materials</a></li>
+                <li><a href="#materials">Materiacls</a></li>
                 <li><a href="#suppliers">Suppliers</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
@@ -35,6 +35,11 @@
     <section class="about">
         <h2 style ="color:blue" >Our Mission</h2>
         <p>Our platform saves time and improves access to equipment by linking buyers and sellers in one place, supporting local businesses and economic growth.</p>
+        <ul>
+            <li> Verified and trusted suppliers</li>
+            <li> Easy material search and comparison</li>
+            <li> Affordable and transparent princing</li>
+            <li> Direct communication with sellers</li>
     </section>
 
     <section id="materials" class="categories">
