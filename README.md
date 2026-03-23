@@ -48,7 +48,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Group 10 Project - Construction Materials and Products Connection Platform.</p>
+        <p>&copy; 2026 Group 10 Project - Construction Materials and Products Connection Platform.</p>
     </footer>
 
 </body>
