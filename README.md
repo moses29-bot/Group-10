@@ -40,6 +40,7 @@
             <li> Easy material search and comparison</li>
             <li> Affordable and transparent princing</li>
             <li> Direct communication with sellers</li>
+        </ul>
     </section>
 
     <section id="materials" class="categories">
