@@ -40,10 +40,12 @@
     <section id="materials" class="categories">
         <h3>Common Materials</h3>
         <div class="grid-container">
-            <div class="card">Bricks & Pellets</div>
-            <div class="card">Cement & Sand</div>
-            <div class="card">Stones & Gravel</div>
-            <div class="card">Tools & Equipment</div>
+            <em>
+                <div class="card">Bricks & Pellets</div>
+                <div class="card">Cement & Sand</div>
+                <div class="card">Stones & Gravel</div>
+                <div class="card">Tools & Equipment</div>
+            </em>
         </div>
     </section>
 
