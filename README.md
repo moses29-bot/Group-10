@@ -13,7 +13,7 @@
             <div class="logo">Construction<span>Hub</span></div>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#materials">Materiacls</a></li>
+                <li><a href="#materials">Materials</a></li>
                 <li><a href="#suppliers">Suppliers</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
