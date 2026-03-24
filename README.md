@@ -45,6 +45,7 @@
 
     <section id="materials" class="categories">
         <h3 style="color:red">Common Materials</h3>
+        <p><strong>note:</strong>check prices and availability before purchasing </p>
         <div class="grid-container">
             <em>
                 <div class="card">Bricks & Pellets</div>
