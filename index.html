@@ -11,7 +11,7 @@
 
     <header>
         <nav>
-            <div class="logo">Construction<span>Hub</span></div>
+            <div class="logo">Construction<span style="color:rgb(109, 73, 73)">Hub</span></div>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#materials">Materials</a></li>
@@ -132,8 +132,12 @@
             <p> Mon - Fri: 8:00 AM – 6:00 PM</p>
         </div>
         <div class="contact-form">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
+            <form>
+                <label>Name:</label><br>
+                <input type="text" name="fullname" placeholder="Your Name" required><br>
+                <label>Email:</label><br>
+                <input type="email" name="customer's email" placeholder="Your Email" required><br>
+            </form>
             <select>
                 <option value="">-- Select Topic --</option>
                 <option value="materials">Ask About Materials</option>
