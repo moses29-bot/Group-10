@@ -289,6 +289,70 @@ color: #FF9800;  margin-bottom: 0.5rem;
 #out {
   color: rgb(240, 56, 56);
 }
+
+.sponsers {
+  text-align: center;
+  padding: 2rem 0;
+  background: rgba(255,255,255,0.9);
+  margin: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsers h3 {
+  flex-basis: 100%;
+}
+.s-card {
+  height: 100px;
+  background-color: rgb(235, 231, 231);
+  margin: 20px;
+}
+.sponser-img1 {
+  background-color: #444;
+  height: 75px;
+  border-radius: 15px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_bAFWhbJIOcPw-yif_VvnRAxtcyJtdZ5Q4g&s);
+  background-position: center;
+  background-size: cover;
+}
+.sponser-img2 {
+  background-color: #444;
+  height: 75px;
+  border-radius: 15px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbXIFRf8VizvNRYhj7TZim0w90HnSOg50YBg&s);
+  background-position: center;
+  background-size: cover;
+}
+.sponser-img3 {
+  background-color: #444;
+  height: 75px;
+  border-radius: 15px;
+  background-image: url(https://www.shutterstock.com/image-vector/construction-services-logo-vector-template-600nw-2542533789.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.sponser-img4 {
+  background-color: #444;
+  height: 75px;
+  border-radius: 15px;
+  background-image: url(https://images.seeklogo.com/logo-png/61/1/costa-construction-services-ltd-logo-png_seeklogo-612689.png);
+  background-position: center;
+  background-size: cover;
+}
+.sponser-img5 {
+  background-color: #fafafa;
+  height: 75px;
+  border-radius: 15px;
+  background-image: url(https://brandlogovector.com/wp-content/uploads/2021/12/UBA-Logo-Small.png);
+  background-position: center;
+  background-size: cover;
+}
+.s-card h3 {
+  color: #807f7f;
+}
 .contact {
     padding: 3rem 2rem;
     background: rgba(255, 255, 255, 0.9);
