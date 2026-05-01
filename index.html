@@ -238,20 +238,34 @@
             <p> Mon - Fri: 8:00 AM – 6:00 PM</p>
         </div>
         <div class="contact-form">
-            <form>
-                <label>Name:</label><br>
-                <input type="text" name="fullname" placeholder="Your Name" required><br>
-                <label>Email:</label><br>
-                <input type="email" name="customer's email" placeholder="Your Email" required><br>
-            </form>
-            <select>
-                <option value="">-- Select Topic --</option>
-                <option value="materials">Ask About Materials</option>
-                <option value="supplier">Become a Supplier</option>
-                <option value="other">Other</option>
-            </select>
-            <textarea rows="5" placeholder="Write your message here..."></textarea>
-            <button class="submit-btn">Send Message</button>
+            <form class="contact-form-form">
+    <label>Name:</label><br>
+    <input type="text" name="fullname" placeholder="Your Name" required><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="customerEmail" placeholder="Your Email" required><br>
+
+    <label>Topic:</label><br>
+    <select required>
+        <option value="">-- Select Topic --</option>
+        <option value="materials">Ask About Materials</option>
+        <option value="supplier">Become a Supplier</option>
+        <option value="other">Other</option>
+    </select><br>
+
+    <label>Message:</label><br>
+    <textarea rows="5" placeholder="Write your message here..." required></textarea><br>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+</form>
+            <a href="#popup" class="btn"></a>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <a href="#" class="close">&times;</a>
+                    <h2>Thank You!</h2>
+                    <p>Your message has been sent successfully.</p>
+                </div>
+                </div>
         </div>
     </div>
 </section>
@@ -259,6 +273,15 @@
     <footer>
         <p>&copy; 2026 Group 10 Project - Construction Materials and Products Connection Platform.</p>
     </footer>
+     <script>
+const form = document.querySelector('.contact-form form');
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault(); // stop reload
+    document.getElementById('popup').style.display = 'block';
+    form.reset();
+});
+</script>
 
 </body>
 </html># Group-10
