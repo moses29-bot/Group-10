@@ -6,6 +6,24 @@
     <script src="https://kit.fontawesome.com/0cb5ccf162.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles.css">
     <title>Group 10 | Construction Connection Platform</title>
+    <style>
+        @keyframes appear{
+            from{
+                opacity: 0;
+                scale: 0.5;
+            }
+            to{
+                opacity: 1;
+                scale: 1;
+            }
+        }
+
+        .block {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+    </style>
     
 </head>
 <body>
@@ -23,253 +41,261 @@
         </nav>
     </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Connecting Quality Materials with Expert Builders</h1>
-            <p >Your central hub for bricks, cement, sand, and construction tools.</p>
-            <div class="search-bar">
-                <input type="text" placeholder="Search for materials (e.g. Bricks, Cement)...">
-                <button>Search</button>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section class="about">
-
-<div class="value-grid">
-            <div>
-                <h3 style="color:brown">Our Goals</h3>
-                <div class="value-card">
-                    <p> Streamline material procurement process</p>
-                    <p>Support local suppliers and economy</p>
-                    <p> Ensure quality and transparency</p>
-                </div>
-            </div>
-            <div>
-                <h3 style="color:brown"> Our Objectives</h3>
-                <div class="value-card">
-                    <p> Verify 100% of suppliers</p>
-                    <p> Reduce search time by 50%</p>
-                    <p>Provide transparent pricing</p>
+    <div class="scroll">
+        <div class="block">
+                <section id="home" class="hero">
+                    <div class="hero-content">
+                        <h1>Connecting Quality Materials with Expert Builders</h1>
+                        <p >Your central hub for bricks, cement, sand, and construction tools.</p>
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search for materials (e.g. Bricks, Cement)...">
+                            <button>Search</button>
+                        </div>
                     </div>
-            </div>
+                </section>
+
+
+
+                <section class="about">
+
+            <div class="value-grid">
+                        <div>
+                            <h3 style="color:brown">Our Goals</h3>
+                            <div class="value-card">
+                                <p> Streamline material procurement process</p>
+                                <p>Support local suppliers and economy</p>
+                                <p> Ensure quality and transparency</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 style="color:brown"> Our Objectives</h3>
+                            <div class="value-card">
+                                <p> Verify 100% of suppliers</p>
+                                <p> Reduce search time by 50%</p>
+                                <p>Provide transparent pricing</p>
+                                </div>
+                        </div>
+                    </div>
+
+
+
+                    <div >
+                        <h3 style="text-align: center; margin: 2rem 0 1rem;"> Our Core Values</h3>
+                    
+
+
+                        <div class="values-grid">
+                        <div >
+                        <div class="value-card">
+                            <h4>Trust</h4>
+                            <p>Verified suppliers only</p>
+                        </div>
+                        <div class="value-card">
+                            <h4>Quality</h4>
+                            <p>Premium materials guaranteed</p>
+                        </div>
+                        <div class="value-card">
+                            <h4>Community</h4>
+                            <p>Supporting local builders</p>
+                        </div>
+                        </div>
+                                <div>
+                        <div class="value-card">
+                            <h4>Trust</h4>
+                            <p>Verified suppliers only</p>
+                        </div>
+                        <div class="value-card">
+                            <h4>Quality</h4>
+                            <p>Premium materials guaranteed</p>
+                        </div>
+                        <div class="value-card">
+                            <h4>Affordability</h4>
+                            <p>Competitive transparent pricing</p>
+                        </div>
+                        </div>
+                        </div> 
+                        
+                    </div>
+                </section>
         </div>
 
+            <div class="block">
+                <section class="categories">
+                    <h3><b>Common Materials</b></h3>
+                    <p><b>NOTE:</b> check price and availability before placing order</p>
+                    
+                    <div class="card">
+                        <div class="card-img1"></div>
+                        <h3>Bricks</h3>
+                        <p>UGX.450/= (per piece)</p>
+                        <p id="available">Available</p>
+                        <a href="#order">ORDER</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-img2"></div>
+                        <h3>Cement</h3>
+                        <p>UGX.45,000 (50kg bag)</p>
+                        <p id="available">Available</p>
+                        <a href="#order">ORDER</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-img3"></div>
+                        <h3>Wood Beams</h3>
+                        <p>UGX.10,800 (per piece)</p>
+                        <p id="available">Available</p>
+                        <a href="#order">ORDER</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-img4"></div>
+                        <h3>Stone</h3>
+                        <p>UGX.54,600 (per ton)</p>
+                        <p id="out">Out of stock</p>
+                        <a href="#order">ORDER</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-img5"></div>
+                        <h3>Excavator</h3>
+                        <p>UGX.1,500,000 (per day)</p>
+                        <p id="available">Available</p>
+                        <a href="#order">ORDER</a>
+                    </div>
+                    
+                </section>
+            </div>
+            <div class="block">
+                <section class="reviews">
+                    <h3><b>Testimonial And Reviews</b></h3>
+                    <p id="sub-title">BY: our trusted customers</p>
 
+                    <div class="test-card">
+                        <div class="test-card-img">
+                            <img src="/imgs/person_1.png">
+                        </div>
+                        <h3>Elijah Trump</h3>
+                        <p id="title">Engineer</p>
+                        <div class="test-content">
+                            <h2><i class="fa-solid fa-quote-left"></i></h2>
+                            <p>ConstructionHub saved us weeks of running around looking for suppliers. We sourced cement and bricks for an entire apartment block all from one platform. The prices are transparent and the suppliers are legitimate</p>
+                            <div class="stars">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gray.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-card-img">
+                            <img src="/imgs/person_2.png">
+                        </div>
+                        <h3>Jane Eyer</h3>
+                        <p id="title"> Property Developer</p>
+                        <div class="test-content">
+                            <h2><i class="fa-solid fa-quote-left"></i></h2>
+                            <p>As someone managing multiple construction projects at once, having a central place to check material availability and pricing is a game changer. ConstructionHub is exactly what Uganda's construction industry needed.</p>
+                            <div class="stars">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gold.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="test-card-img">
+                            <img src="/imgs/person_3.png">
+                        </div>
+                        <h3>Bill George</h3>
+                        <p id="title">Supplier</p>
+                        <div class="test-content">
+                            <h2><i class="fa-solid fa-quote-left"></i></i></h2>
+                            <p>Listing our materials on ConstructionHub has grown our customer base significantly. We now get orders from builders across the city who would have never found us otherwise. It's been great for our business</p>
+                            <div class="stars">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gold.png">
+                                <img src="/imgs/star_gray.png">
+                                <img src="/imgs/star_gray.png">
+                            </div>
+                        </div>
+                    </div>
 
-        <div >
-            <h3 style="text-align: center; margin: 2rem 0 1rem;"> Our Core Values</h3>
-        
+                </section>
+            </div>
+            <div class="block">
+                <section class="sponsers">
+                    <h3>SPONSERED BY;</h3>
+                    <div class="s-card">
+                        <div class="sponser-img1"></div>
+                        <h3>Hima Cement Ltd</h3>
+                    </div>
+                    <div class="s-card">
+                        <div class="sponser-img2"></div>
+                        <h3>Bold Edge Ltd</h3>
+                    </div>
+                    <div class="s-card">
+                        <div class="sponser-img3"></div>
+                        <h3>Construction Ltd</h3>
+                    </div>
+                    <div class="s-card">
+                        <div class="sponser-img4"></div>
+                        <h3>Costa construction</h3>
+                    </div>
+                    <div class="s-card">
+                        <div class="sponser-img5"></div>
+                        <h3>UBA Uganda</h3>
+                    </div>
+                    
+                </section>
+            </div>
+            <div class="block">
+                <section id="contact" class="contact">
+                <h2>Contact Us</h2>
+                <p>Have a question or want to list your materials? Reach out to us!</p>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p> Kampala, Uganda</p>
+                        <p> +256 700 123 456</p>
+                        <p>info@constructionhub.com</p>
+                        <p> Mon - Fri: 8:00 AM – 6:00 PM</p>
+                    </div>
+                    <div class="contact-form">
+                        <form class="contact-form-form">
+                <label>Name:</label><br>
+                <input type="text" name="fullname" placeholder="Your Name" required><br>
 
+                <label>Email:</label><br>
+                <input type="email" name="customerEmail" placeholder="Your Email" required><br>
 
-            <div class="values-grid">
-            <div >
-            <div class="value-card">
-                <h4>Trust</h4>
-                <p>Verified suppliers only</p>
-            </div>
-            <div class="value-card">
-                <h4>Quality</h4>
-                <p>Premium materials guaranteed</p>
-            </div>
-            <div class="value-card">
-                <h4>Community</h4>
-                <p>Supporting local builders</p>
-            </div>
-            </div>
-                    <div>
-             <div class="value-card">
-                <h4>Trust</h4>
-                <p>Verified suppliers only</p>
-            </div>
-            <div class="value-card">
-                <h4>Quality</h4>
-                <p>Premium materials guaranteed</p>
-            </div>
-            <div class="value-card">
-                <h4>Affordability</h4>
-                <p>Competitive transparent pricing</p>
-            </div>
-            </div>
-            </div> 
-            
-        </div>
-    </section>
+                <label>Topic:</label><br>
+                <select required>
+                    <option value="">-- Select Topic --</option>
+                    <option value="materials">Ask About Materials</option>
+                    <option value="supplier">Become a Supplier</option>
+                    <option value="other">Other</option>
+                </select><br>
 
+                <label>Message:</label><br>
+                <textarea rows="5" placeholder="Write your message here..." required></textarea><br>
 
-    <section class="categories">
-        <h3><b>Common Materials</b></h3>
-        <p><b>NOTE:</b> check price and availability before placing order</p>
-        
-        <div class="card">
-            <div class="card-img1"></div>
-            <h3>Bricks</h3>
-            <p>UGX.450/= (per piece)</p>
-            <p id="available">Available</p>
-            <a href="#order">ORDER</a>
-        </div>
-        <div class="card">
-            <div class="card-img2"></div>
-            <h3>Cement</h3>
-            <p>UGX.45,000 (50kg bag)</p>
-            <p id="available">Available</p>
-            <a href="#order">ORDER</a>
-        </div>
-        <div class="card">
-            <div class="card-img3"></div>
-            <h3>Wood Beams</h3>
-            <p>UGX.10,800 (per piece)</p>
-            <p id="available">Available</p>
-            <a href="#order">ORDER</a>
-        </div>
-        <div class="card">
-            <div class="card-img4"></div>
-            <h3>Stone</h3>
-            <p>UGX.54,600 (per ton)</p>
-            <p id="out">Out of stock</p>
-            <a href="#order">ORDER</a>
-        </div>
-        <div class="card">
-            <div class="card-img5"></div>
-            <h3>Excavator</h3>
-            <p>UGX.1,500,000 (per day)</p>
-            <p id="available">Available</p>
-            <a href="#order">ORDER</a>
-        </div>
-        
-    </section>
-    <section class="reviews">
-        <h3><b>Testimonial And Reviews</b></h3>
-        <p id="sub-title">BY: our trusted customers</p>
-
-        <div class="test-card">
-            <div class="test-card-img">
-                <img src="/imgs/person_1.png">
-            </div>
-            <h3>Elijah Trump</h3>
-            <p id="title">Engineer</p>
-             <div class="test-content">
-                <h2><i class="fa-solid fa-quote-left"></i></h2>
-                <p>ConstructionHub saved us weeks of running around looking for suppliers. We sourced cement and bricks for an entire apartment block all from one platform. The prices are transparent and the suppliers are legitimate</p>
-                <div class="stars">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gray.png">
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+                        <a href="#popup" class="btn"></a>
+                        <div id="popup" class="popup">
+                            <div class="popup-content">
+                                <a href="#" class="close">&times;</a>
+                                <h2>Thank You!</h2>
+                                <p>Your message has been sent successfully.</p>
+                            </div>
+                            </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="test-card">
-            <div class="test-card-img">
-                <img src="/imgs/person_2.png">
-            </div>
-            <h3>Jane Eyer</h3>
-            <p id="title"> Property Developer</p>
-             <div class="test-content">
-                <h2><i class="fa-solid fa-quote-left"></i></h2>
-                <p>As someone managing multiple construction projects at once, having a central place to check material availability and pricing is a game changer. ConstructionHub is exactly what Uganda's construction industry needed.</p>
-                <div class="stars">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gold.png">
-                </div>
-            </div>
-        </div>
-        <div class="test-card">
-            <div class="test-card-img">
-                <img src="/imgs/person_3.png">
-            </div>
-            <h3>Bill George</h3>
-            <p id="title">Supplier</p>
-            <div class="test-content">
-                <h2><i class="fa-solid fa-quote-left"></i></i></h2>
-                <p>Listing our materials on ConstructionHub has grown our customer base significantly. We now get orders from builders across the city who would have never found us otherwise. It's been great for our business</p>
-                <div class="stars">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gold.png">
-                    <img src="/imgs/star_gray.png">
-                    <img src="/imgs/star_gray.png">
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="sponsers">
-        <h3>SPONSERED BY;</h3>
-        <div class="s-card">
-            <div class="sponser-img1"></div>
-            <h3>Hima Cement Ltd</h3>
-        </div>
-        <div class="s-card">
-            <div class="sponser-img2"></div>
-            <h3>Bold Edge Ltd</h3>
-        </div>
-        <div class="s-card">
-            <div class="sponser-img3"></div>
-            <h3>Construction Ltd</h3>
-        </div>
-        <div class="s-card">
-            <div class="sponser-img4"></div>
-            <h3>Costa construction</h3>
-        </div>
-        <div class="s-card">
-            <div class="sponser-img5"></div>
-            <h3>UBA Uganda</h3>
-        </div>
-        
-    </section>
-
-    <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <p>Have a question or want to list your materials? Reach out to us!</p>
-    <div class="contact-container">
-        <div class="contact-info">
-            <h3>Get In Touch</h3>
-            <p> Kampala, Uganda</p>
-            <p> +256 700 123 456</p>
-            <p>info@constructionhub.com</p>
-            <p> Mon - Fri: 8:00 AM – 6:00 PM</p>
-        </div>
-        <div class="contact-form">
-            <form class="contact-form-form">
-    <label>Name:</label><br>
-    <input type="text" name="fullname" placeholder="Your Name" required><br>
-
-    <label>Email:</label><br>
-    <input type="email" name="customerEmail" placeholder="Your Email" required><br>
-
-    <label>Topic:</label><br>
-    <select required>
-        <option value="">-- Select Topic --</option>
-        <option value="materials">Ask About Materials</option>
-        <option value="supplier">Become a Supplier</option>
-        <option value="other">Other</option>
-    </select><br>
-
-    <label>Message:</label><br>
-    <textarea rows="5" placeholder="Write your message here..." required></textarea><br>
-
-    <button type="submit" class="submit-btn">Send Message</button>
-</form>
-            <a href="#popup" class="btn"></a>
-            <div id="popup" class="popup">
-                <div class="popup-content">
-                    <a href="#" class="close">&times;</a>
-                    <h2>Thank You!</h2>
-                    <p>Your message has been sent successfully.</p>
-                </div>
-                </div>
+            </section>
         </div>
     </div>
-</section>
-
     <footer>
         <p>&copy; 2026 Group 10 Project - Construction Materials and Products Connection Platform.</p>
     </footer>
