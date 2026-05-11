@@ -298,6 +298,14 @@ color: #FF9800;  margin-bottom: 0.5rem;
   background-position: center;
   background-size: cover;
 }
+.card-img6 {
+  background-color: #FF9800;
+  height: 150px;
+  border-radius: 15px;
+  background-image: url(https://iconic.co.ug/wp-content/uploads/2021/01/40-70-70mm-Stone-Coarse-Aggregate-.jpeg);
+  background-position: center;
+  background-size: cover;
+}
 .card:hover {
   cursor: context-menu;
   color: aliceblue;
